@@ -2,7 +2,7 @@
 
 This is a test repository to ensure that you are able to download a repository from R.
 
-# Set-up Instructions
+# Set-up Instructions for the Course
 
 ## Get an account on GitHub
 
