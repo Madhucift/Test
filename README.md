@@ -32,7 +32,7 @@ install.packages("devtools")
 devtools::install_github("rstudio/bookdown")
 ```
 
-1. Install **other packages** that we are going to be need. Installing from GitHub will automatically install any needed packages that you do not have installed.  I have created a blank package on GitHub that just declares the packages you will need, so when you install this it will install the packages you need.
+1. Install **other packages** that we are going to be need. I have created a package on GitHub that declares the packages you will need. When you install this it will install the packages you need.
 
 ```{r get-packages, eval=FALSE}
 devtools::install_github("RVerse-Tutorials/RWorkflowsetup")
@@ -44,7 +44,7 @@ Create a folder/directory on your computer for the workshop materials.  You can 
 
 ## Disqus forum
 
-I have added a Disqus forum to the website.  [Create an account](https://disqus.com/) if you would like to be able to add comments/questions.  This will allow people to pose questions to the group and allow me (and others) to answer.
+I have added a Disqus forum to the course website.  [Create an account](https://disqus.com/) if you would like to be able to add comments/questions.  This will allow people to pose questions to the group and allow me (and others) to answer.
 
 ## Downloading repositories
 
@@ -52,7 +52,7 @@ You will need to download repositories from [RVerse-Tutorials](https://github.co
 
 ### Method #1 Download from within R
 
-This is the method I will show in the lectures. The 'RWorkflowsetup' package has a download function. This function will create a folder with the name of the repository.  Here is code to download the repository 'Rmarkdown-Tutorial'.  For others, just change the name of the repository.
+This is the method I will show. Here is code to download the repository 'Test' from with R.  For others, just change the name of the repository.
 
 ```
 library(RWorkflowsetup)
